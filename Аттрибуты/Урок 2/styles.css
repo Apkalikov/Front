@@ -1,0 +1,31 @@
+
+.menu{
+  text-align: center;
+}
+.menu a:visited{
+color: #ffffff;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+background-color: #ffff00;
+}
+.menu a:active{
+ color: #0008ff;
+}
+a:hover{
+ background-color: red;
+ }
+ .content .block p:first-child {
+ 	background-color: red;
+ }
+ .content .block p:nth-child(3) {
+ 	background-color: green;	
+ }
+.content p::first-letter{
+  color: red;
+}
+p::selection{
+  background-color: green;
+}
